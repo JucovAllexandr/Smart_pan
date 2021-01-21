@@ -30,10 +30,58 @@ main.o: /home/sania/Smart_pan/main/main.c \
  /opt/ESP/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/esp_heap_config.h \
  /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/event_groups.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/timers.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /opt/ESP/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h \
- /opt/ESP/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h
+ /opt/ESP/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp_event/include/esp_event.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/semphr.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_legacy.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/tcpip_adapter/include/tcpip_adapter.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip_addr.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/opt.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/lwipopts.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/newlib/platform_include/time.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/include/apps/sntp/sntp.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/netif/dhcp_state.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/debug.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/arch.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/cc.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/sys_arch.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/vfs_lwip.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/def.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip4_addr.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip6_addr.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/def.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/lwip/include/apps/dhcpserver/dhcpserver.h \
+ /home/sania/Smart_pan/main/button.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
+ /home/sania/Smart_pan/main/nvs_def.h /home/sania/Smart_pan/main/server.h \
+ /home/sania/Smart_pan/main/application.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_client.h \
+ /opt/ESP/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h
 
 /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -97,6 +145,14 @@ main.o: /home/sania/Smart_pan/main/main.c \
 
 /opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h:
 
+/opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/event_groups.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/timers.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h:
+
 /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h:
 
 /opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
@@ -104,4 +160,94 @@ main.o: /home/sania/Smart_pan/main/main.c \
 /opt/ESP/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h:
 
 /opt/ESP/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp_event/include/esp_event.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/semphr.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_legacy.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/tcpip_adapter/include/tcpip_adapter.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip_addr.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/opt.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/lwipopts.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/newlib/platform_include/time.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/include/apps/sntp/sntp.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/netif/dhcp_state.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/debug.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/arch.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/cc.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/sys_arch.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/vfs_lwip.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/def.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip4_addr.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip6_addr.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/def.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/lwip/include/apps/dhcpserver/dhcpserver.h:
+
+/home/sania/Smart_pan/main/button.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h:
+
+/home/sania/Smart_pan/main/nvs_def.h:
+
+/home/sania/Smart_pan/main/server.h:
+
+/home/sania/Smart_pan/main/application.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_client.h:
+
+/opt/ESP/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h:
 /home/sania/Smart_pan/main/./main.c:
